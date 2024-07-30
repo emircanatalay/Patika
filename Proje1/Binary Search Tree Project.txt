@@ -1,0 +1,94 @@
+Başlangıç:
+Root: 7 (ilk eleman root olarak seçilir)
+
+2. Adım:
+Eleman: 5
+5, 7'den küçüktür, bu yüzden 7'nin soluna eklenir.
+Root: 7
+Sol: 5
+Sağ: boş
+
+3. Adım:
+Eleman: 1
+1, 7'den küçüktür, 5'ten de küçüktür, bu yüzden 1, 5'in soluna eklenir.
+Root: 7
+Sol: 5
+Sol: 1
+Sağ: boş
+
+4. Adım:
+Eleman: 8
+8, 7'den büyüktür, bu yüzden 7'nin sağına eklenir.
+Root: 7
+Sol: 5
+Sol: 1
+Sağ: 8
+
+5. Adım:
+Eleman: 3
+3, 7'den küçüktür, 5'ten de küçüktür fakat 1'den büyüktür, bu yüzden 3, 1'in sağına eklenir.
+Root: 7
+Sol: 5
+Sol: 1
+Sağ: 3
+Sağ: 8
+
+6. Adım:
+Eleman: 6
+6, 7'den küçüktür fakat 5'ten büyüktür, bu yüzden 6, 5'in sağında yer alır.
+Root: 7
+Sol: 5
+Sol: 1
+Sağ: 3
+Sağ: 6
+Sağ: 8
+
+7. Adım:
+Eleman: 0
+0, 7'den küçüktür, 5'ten de küçüktür, 1'den de küçüktür, bu yüzden 0, 1'in soluna eklenir.
+Root: 7
+Sol: 5
+Sol: 1
+Sol: 0
+Sağ: 3
+Sağ: 6
+Sağ: 8
+
+8. Adım:
+Eleman: 9
+9, 7'den büyüktür, 8'den de büyüktür, bu yüzden 9, 8'in sağına eklenir.
+Root: 7
+Sol: 5
+Sol: 1
+Sol: 0
+Sağ: 3
+Sağ: 6
+Sağ: 8
+Sağ: 9
+
+9. Adım:
+Eleman: 4
+4, 7'den küçüktür, 5'ten küçüktür fakat 1'den büyüktür ve 3'ten de büyüktür, bu yüzden 4, 3'ün sağında yer alır.
+Root: 7
+Sol: 5
+Sol: 1
+Sol: 0
+Sağ: 3
+Sağ: 4
+Sağ: 6
+Sağ: 8
+Sağ: 9
+
+10. Adım:
+Eleman: 2
+2, 7'den küçüktür, 5'ten de küçüktür fakat 1'den büyüktür, bu yüzden 2, 1'in sağında yer alır.
+Root: 7
+Sol: 5
+Sol: 1
+Sol: 0
+Sağ: 2
+Sağ: 3
+Sağ: 4
+Sağ: 6
+Sağ: 8
+Sağ: 9
