@@ -1,0 +1,33 @@
+  --------------------------------------1--------------------------------------
+Başlangıç dizisi: [16, 21, 11, 8, 12, 22]
+
+Diziyi ikiye bölme:
+
+Sol yarı: [16, 21, 11]
+Sağ yarı: [8, 12, 22]
+
+Sol yarıyı tekrar ikiye böleriz:
+
+[16, 21, 11] -> [16] ve [21, 11]
+[21, 11] -> [21] ve [11]
+Elde edilen diziler sıralanır ve birleştirilir:
+
+[21] ve [11] -> [11, 21]
+[16] ve [11, 21] -> [11, 16, 21]
+Sağ yarıyı böleriz:
+
+[8, 12, 22] -> [8] ve [12, 22]
+[12, 22] -> [12] ve [22]
+Elde edilen diziler sıralanır ve birleştirilir:
+
+[12] ve [22] -> [12, 22]
+[8] ve [12, 22] -> [8, 12, 22]
+Son olarak, sıralı sol ve sağ yarıları birleştiririz:
+
+[11, 16, 21] ve [8, 12, 22] -> [8, 11, 12, 16, 21, 22]
+
+  --------------------------------------2--------------------------------------
+
+Worst Case: O(nlogn)
+Average Case: O(nlogn)
+Best Case: O(nlogn)
